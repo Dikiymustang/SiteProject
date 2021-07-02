@@ -5,11 +5,12 @@ body {
 }
 p {
 	margin: 0;
+	text-align: justify; 
 }
 .container {
 	width: 1168px;
 	margin: 0 auto;
-	padding: 16px;
+	padding: 1px;
 }
 .wrapper {
 	display: flex;
@@ -31,15 +32,19 @@ p {
 
 /* header */
 .topheader {
-	background: #000;
+	background: #eda896;
 	color: #fff;
+	height: 50px; 
 }
 .mainheader {
 	background: #fff;
 }
 .bottomheader {
-	background: #f93c00;
-}
+	background: #e2927e;
+	box-shadow: 5px 0 5px rgba(0.5,0,0,0.5); /* Параметры тени */
+	padding-bottom: 0.5px; 
+	opacity: 1;
+ }
 #yourcity {
 	cursor: pointer;
 }
@@ -92,18 +97,29 @@ p {
 main {
 	flex: 1 1 auto;
 	background: #fff;
+	padding-top: 2px; 
+
 }
+
+.shadow {
+    background: #fac7b9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 12px;
+   }
 
 /* footer */
 footer {
-	background: #316099;
+	background: #e2927e;
 	color: #fff;
+	height: 70px; 
+
 }
 
   /*Slider*/
 .jSlider {
 	position: relative;
 	width: 100%;
+	height: 70vh;
 	padding-bottom: 10px; 
 }
 
@@ -232,14 +248,14 @@ CONTROLLERS - PURE CSS 3 THEME
 	visibility: hidden;
 	text-align: center;
 	position: absolute;
-	bottom: 5%;
+	bottom: 4%;
 	left: 0;
 	right: 0;
 }
 .jSlider .indicator span {
 	font-size: 0;
 	line-height: 0;
-	width: 11px;
+	width: 31px;
 	height: 11px;
 	margin-left: 10px;
 	background: #ccc;
